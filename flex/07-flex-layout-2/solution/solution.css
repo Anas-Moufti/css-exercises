@@ -8,6 +8,11 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  font-size: 32px;
+  font-weight: 900;
 }
 
 .footer {
@@ -34,13 +39,7 @@ body {
   flex-direction: column;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  padding: 0 16px;
-  font-size: 32px;
-  font-weight: 900;
-}
+
 
 .body {
   flex: 1;
